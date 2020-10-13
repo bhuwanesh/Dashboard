@@ -1,0 +1,91 @@
+
+.dbox {
+    position: relative;
+    background: gold;
+    border-radius: 4px;
+    text-align: center;
+    margin: 60px 0 50px;
+}
+.dbox__icon {
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+}
+
+.dbox__icon > p {
+    background: gold;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+	font-size:12px;
+}
+.dbox__body {
+    padding: 50px 20px;
+}
+.dbox__count {
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 300;
+}
+.dbox__maintitle {
+    color: teal;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.dbox__title {
+    font-size: 13px;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.81);
+}
+.dbox__action {
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    left: 50%;
+}
+.dbox__action__btn {
+    border: none;
+    background: #f2f2f2;
+    border-radius: 19px;
+    padding: 7px 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: .5px;
+    color: teal;
+    box-shadow: 0 3px 5px #d4d4d4;
+}
+
+
+.dbox--color-2 {
+    background: teal;
+}
+.dbox--color-2 .dbox__icon > p {
+    background: teal;
+}
+
+.dbox--color-3 {
+    background: grey;
+}
+.dbox--color-3 .dbox__icon > p {
+    background: grey;
+}
+.dbox--color-4 {
+    background: whitesmoke;
+}
+.dbox--color-4 .dbox__icon > p {
+    background: whitesmoke;
+}
+.dbox--color-5 {
+    background: white;
+}
+.dbox--color-5 .dbox__icon > p {
+    background: white;
+}
+.dbox--color-6 {
+    background: #FF7F00;
+}
+.dbox--color-6 .dbox__icon > p {
+    background: #FF7F00;
+}
